@@ -1,0 +1,42 @@
+.background{
+    background-color: bisque;
+    position: relative;
+    z-index: -2;
+}
+
+.natsu{
+    position: relative;
+    top: 98px;
+    left: 310px;
+    z-index: 1;
+    }
+
+.gray{
+    position: relative;
+    float: right;
+    bottom: 535px;
+    right: 110px;
+}
+
+.lucy{
+    float: left;
+    position: relative;
+    bottom: 512px;
+    left: 130px;
+}
+.erza{
+    float: right;
+    position: relative;
+    bottom: 1230px;
+    left: 290px;
+    z-index: -1;
+}
+
+.happy{
+    float: left;
+    position: relative;
+    bottom: 1220px;
+    left: 120px;
+    z-index: -1;
+    transform: rotate(-30deg);
+}
