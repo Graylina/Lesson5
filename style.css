@@ -1,42 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
 .background{
     background-color: bisque;
     position: relative;
+    width: 100%;
+    height: 100vh;
     z-index: -2;
 }
 
-.natsu{
-    position: relative;
-    top: 98px;
-    left: 310px;
-    z-index: 1;
+    .natsu{
+        position: absolute;
+        bottom: 0 ;
+        left:25%;
+        z-index: 1;
     }
 
-.gray{
-    position: relative;
-    float: right;
-    bottom: 535px;
-    right: 110px;
-}
+    .gray{
+        position: absolute;
+        bottom: 0;
+        left: 57%;
+    }
 
-.lucy{
-    float: left;
-    position: relative;
-    bottom: 512px;
-    left: 130px;
-}
-.erza{
-    float: right;
-    position: relative;
-    bottom: 1230px;
-    left: 290px;
-    z-index: -1;
-}
+    .lucy{
+        position: absolute;
+        bottom: 1%;
+        left: 15.6%;
+    }
+    .erza{
+        position: absolute;
+        bottom: 29%;
+        left: 45%;
+        z-index: -1;
+        transform: rotate(15deg);
+    }
 
-.happy{
-    float: left;
-    position: relative;
-    bottom: 1220px;
-    left: 120px;
-    z-index: -1;
-    transform: rotate(-30deg);
-}
+    .happy{
+        position: absolute;
+        bottom: 60%;
+        left: 35%;
+        transform: rotate(-30deg);
+    }
